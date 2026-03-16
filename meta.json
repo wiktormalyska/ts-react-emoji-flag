@@ -1,10 +1,10 @@
 {
   "name": "ts-react-emoji-flag",
-  "description": "Typescript variation of react-emoji-flag package",
+  "description": "TypeScript variation of react-emoji-flag package",
   "imageUrl": "https://github.com/wiktormalyska/ts-react-emoji-flag/blob/main/meta_photo.png?raw=true",
   "websiteUrl": "https://www.npmjs.com/package/ts-react-emoji-flag",
   "technologies": [
-    "Typescript",
+    "TypeScript",
     "JavaScript",
     "React"
   ]
