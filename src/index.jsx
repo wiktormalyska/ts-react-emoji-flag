@@ -1,5 +1,4 @@
 import React, {useEffect} from "react";
-import PropTypes from "prop-types";
 
 const fontUrl = "https://country-flag.proca.app/font/TwemojiCountryFlags.woff2";
 const fontName = "countryFlags";
@@ -82,13 +81,6 @@ export const CountryFlag = (props) => {
       {flag(props.countryCode)}
     </span>
     );
-};
-
-CountryFlag.propTypes = {
-    className: PropTypes.string,
-    title: PropTypes.string,
-    countryCode: PropTypes.string.isRequired,
-    forceLoadFont: PropTypes.bool
 };
 
 export default CountryFlag;
